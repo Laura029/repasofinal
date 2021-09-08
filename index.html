@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onkeypress="tecla()">
+	<div class="ct"></div>
+	<div class="cin"></div>
+	<div class="cim"></div>
+	<div class="cb1" onclick="cua1()">1</div>
+	<div class="cb2" onclick="cua2()">2</div>
+	<div class="cmo1" id="icm1">nombre:
+	<div class="cbc1" onclick="cuce1()"></div></div>
+	<div class="cmo2" id="icm2">Apellido:
+		<div class="cbc1" onclick="cuce2()"></div></div>
+	<div class="cmo3" id="icm3">laura</div>
+	<div class="cmo4" id="icm4">Castrillon</div>
+
+
+	<script>
+		x=0;
+		function tecla(){
+			if (event.code=="KeyA"&&x==1) {
+			icm3.style.width=85+"%";
+			icm3.style.color="black";
+			}
+			if (event.code=="KeyA"&&x==2) {
+			icm4.style.width=85+"%";
+			icm4.style.color="black";
+			}
+		}
+
+		function cua1(){
+			icm1.style.width=85+"%";
+			icm1.style.color="black";
+			x=1;
+		}
+
+		function cua2(){
+			icm2.style.width=85+"%";
+			icm2.style.color="black";
+			x=2;
+		}
+
+		function cuce1(){
+			icm1.style.width=0+"%";
+			icm1.style.color="transparent";
+			icm3.style.width=0+"%";
+			icm3.style.color="transparent";
+			x=0;
+		}
+
+		function cuce2(){
+			icm2.style.width=0+"%";
+			icm2.style.color="transparent";
+			icm4.style.width=0+"%";
+			icm4.style.color="transparent";
+			x=0;
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+.ct{
+	position: absolute;
+	left: 30%;
+	top: 10%;
+	width: 45%;
+	height: 20%;
+	background: black;
+}
+
+.cin{
+	position: absolute;
+	left: 10%;
+	top: 40%;
+	width: 35%;
+	height: 40%;
+	background: black;
+}
+
+.cim{
+	position: absolute;
+	left: 60%;
+	top: 40%;
+	width: 35%;
+	height: 40%;
+	background-image: url("img.jpg");
+}
+
+.cb1{
+	position: absolute;
+	left: 21%;
+	top: 83%;
+	width: 10%;
+	height: 10%;
+	background: blue;
+}
+
+.cb2{
+	position: absolute;
+	left: 74%;
+	top: 83%;
+	width: 10%;
+	height: 10%;
+	background: blue;
+}
+
+.cmo1{
+	position: absolute;
+	left: 10%;
+	top: 40%;
+	width: 0%;
+	height: 42%;
+	background: green;
+	transition: 3s all;
+	color: transparent;
+}
+
+.cmo2{
+	position: absolute;
+	left: 10%;
+	top: 40%;
+	width: 0%;
+	height: 42%;
+	background: pink;
+	transition: 3s all;
+	color: transparent;
+}
+
+.cmo3{
+	position: absolute;
+	left: 10%;
+	top: 40%;
+	width: 0%;
+	height: 42%;
+	background: orange;
+	transition: 3s all;
+	color: transparent;
+}
+
+.cmo4{
+	position: absolute;
+	left: 10%;
+	top: 40%;
+	width: 0%;
+	height: 42%;
+	background: orange;
+	transition: 3s all;
+	color: transparent;
+}
+
+.cbc1{
+	position: absolute;
+	left: 90%;
+	top: 85%;
+	width: 8%;
+	height: 10%;
+	background: black;
+	transition: 3s all;
+	color: transparent;
+	z-index: 3;
+}
+
+
